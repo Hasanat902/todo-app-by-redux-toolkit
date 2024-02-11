@@ -1,7 +1,12 @@
+import AddTodo from "./components/AddTodo";
+import Todos from "./components/Todos";
+
 function App() {
   return (
     <>
-      <h2 className="text-red-500 text-2xl">This is a todo App</h2>
+      
+      <AddTodo/>
+      <Todos/>
     </>
   );
 }
